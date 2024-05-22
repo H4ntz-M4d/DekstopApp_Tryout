@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane minHeight="800" minWidth="1500" styleClass="layout" stylesheets="@../../../Style/styles.css" xmlns:fx="http://javafx.com/fxml/1"
+           xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.projectapk.Controller.SoalController">
+
+    <BorderPane>
+        <top>
+            <StackPane fx:id="anchorPane" alignment="CENTER" minHeight="120" styleClass="TopView">
+                <VBox>
+                    <Pane fx:id="ImageLogo" prefHeight="90" prefWidth="240" styleClass="ImageLogo" />
+                </VBox>
+            </StackPane>
+        </top>
+        <left>
+            <VBox alignment="CENTER" maxWidth="260" style="-fx-background-color:white; -fx-border-width: 0 2 0 0; -fx-border-color: #9400FF;">
+                <FlowPane fx:id="allNumberButton" alignment="CENTER" hgap="5" vgap="5" />
+            </VBox>
+
+        </left>
+
+        <center>
+            <VBox maxHeight="600" maxWidth="1200" style="-fx-background-color:white; -fx-border-width: 2; -fx-border-color: #9400FF; ">
+                <HBox fx:id="labelSoal" alignment="CENTER" minHeight="80" style="-fx-background-color:white;" styleClass="TopView">
+                    <Label text="Soal TRYOUT">
+                  <font>
+                     <Font name="System Bold" size="20.0" />
+                  </font></Label>
+                </HBox>
+
+                <VBox>
+                    <padding>
+                        <Insets bottom="25" left="25" right="25" top="25" />
+                    </padding>
+
+                    <VBox fx:id="radioButtonContainer" spacing="20">
+                        <Label fx:id="soalLabel" />
+                        <RadioButton fx:id="answerButton1" />
+                        <RadioButton fx:id="answerButton2" />
+                        <RadioButton fx:id="answerButton3" />
+                        <RadioButton fx:id="answerButton4" />
+                        <RadioButton fx:id="answerButton5" />
+                    </VBox>
+                    <HBox fx:id="allButton" spacing="20">
+                        <padding>
+                            <Insets top="20" />
+                        </padding>
+                    </HBox>
+                </VBox>
+            </VBox>
+        </center>
+    </BorderPane>
+</StackPane>

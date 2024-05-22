@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+    <BorderPane minHeight="800" minWidth="800" styleClass="layout" stylesheets="@../../../Style/styles.css"
+                xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectapk.Controller.MenuController">
+        <top>
+            <StackPane fx:id="anchorPane" alignment="CENTER" minHeight="120" styleClass="TopView">
+                <Pane fx:id="ImageLogo" prefHeight="90" prefWidth="240" styleClass="ImageLogo" />
+
+                <HBox alignment="CENTER_RIGHT" minHeight="120">
+                    <Region HBox.hgrow="ALWAYS" />
+
+                    <Button fx:id="btnLogout" alignment="CENTER_RIGHT" contentDisplay="LEFT" styleClass="btnLogout" text="Log Out" textFill="WHITE">
+                       <font>
+                          <Font name="System Bold" size="18.0" />
+                       </font>
+
+                        <graphic>
+                            <Pane prefHeight="50" prefWidth="45" styleClass="iconLogout" />
+                        </graphic>
+                       <HBox.margin>
+                          <Insets right="50.0" />
+                       </HBox.margin>
+                    </Button>
+                </HBox>
+            </StackPane>
+        </top>
+        <center>
+            <HBox alignment="CENTER" minHeight="500" minWidth="1300" spacing="40" style="-fx-background-color: #27005D;">
+                <Button fx:id="TryOut1" contentDisplay="TOP" styleClass="ButtonImage" text="KERJAKAN" textFill="white">
+                    <graphic>
+                        <Pane fx:id="ImageButton" prefHeight="220" prefWidth="300" styleClass="ImageButton" />
+                    </graphic>
+                </Button>
+                <Button fx:id="TryOut2" contentDisplay="TOP" styleClass="ButtonImage" text="KERJAKAN" textFill="white">
+                    <graphic>
+                        <Pane fx:id="ImageButton1" prefHeight="220" prefWidth="300" styleClass="ImageButton" />
+                    </graphic>
+                </Button>
+            </HBox>
+        </center>
+        <left>
+            <VBox minWidth="200" style="-fx-background-color: #27005D;" styleClass="ListMenu">
+                <HBox alignment="CENTER">
+                    <Button minHeight="50" minWidth="200" styleClass="MenuButton" text="Dashbord" textFill="WHITE" />
+                </HBox>
+                <HBox alignment="CENTER">
+                    <Button fx:id="menuScore" minHeight="50" minWidth="200" onAction="#klikMyScore" styleClass="MenuButton" text="My Score" textFill="WHITE" />
+                </HBox>
+                <HBox alignment="CENTER">
+                    <Button minHeight="50" minWidth="200" styleClass="MenuButton" onAction="#klikAbout" text="About" textFill="WHITE" />
+                </HBox>
+
+            </VBox>
+        </left>
+
+    </BorderPane>
+

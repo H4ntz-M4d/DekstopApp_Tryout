@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<ScrollPane fitToWidth="true" stylesheets="@../../../Style/styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectapk.Controller.AboutController"
+            minHeight="1300" minWidth="1500">
+   <content>
+      <StackPane minHeight="500.0" minWidth="1300.0" prefHeight="1180.0" prefWidth="1300.0" style="-fx-background-color: #27005D;">
+
+         <children>
+            <StackPane alignment="TOP_CENTER" prefHeight="56.0" prefWidth="220.0">
+               <children>
+                  <HBox alignment="TOP_LEFT">
+                     <Button onAction="#BackIconButton" styleClass="BackIconButton">
+                        <graphic>
+                           <Pane fx:id="BackIcon" prefHeight="60" prefWidth="70" styleClass="BackIcon" />
+                        </graphic>
+                     </Button>
+                  </HBox>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="220.0" text="ABOUT US" textAlignment="CENTER" textFill="#cccccc">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+               <StackPane.margin>
+                  <Insets top="30.0" />
+               </StackPane.margin>
+            </StackPane>
+            <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="176.0" prefWidth="1029.0" spacing="45.0" StackPane.alignment="TOP_CENTER">
+               <children>
+                  <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="176.0" prefWidth="226.0" style="-fx-background-color: #CCCCCC;">
+                     <children>
+                        <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="218.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="62.0" prefWidth="226.0" text="Selamat Datang di BROUT" textFill="#27005d" wrapText="true">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="116.0" prefWidth="221.0">
+                           <children>
+                              <Label alignment="TOP_CENTER" layoutX="23.0" prefHeight="110.0" prefWidth="182.0" text="Kami adalah tim yang berdedikasi dari Polinema PSDKU Pamekasan, yang dengan semangat dan keahlian kami, menciptakan pengalaman tryout yang luar biasa bagi Anda." textAlignment="CENTER" textFill="#27005d" wrapText="true" />
+                           </children>
+                        </Pane>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="176.0" prefWidth="226.0" style="-fx-background-color: #CCCCCC;">
+                     <children>
+                        <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="218.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="62.0" prefWidth="226.0" text="Misi Kami" textFill="#27005d" wrapText="true">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="116.0" prefWidth="221.0">
+                           <children>
+                              <Label alignment="TOP_CENTER" layoutX="23.0" prefHeight="110.0" prefWidth="182.0" text="Menyediakan pengalaman tryout yang terbaik dan terdepan, kami berkomitmen untuk membantu Anda meraih kesuksesan dalam ujian akademis Anda." textAlignment="CENTER" textFill="#27005d" wrapText="true" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="176.0" prefWidth="226.0" style="-fx-background-color: #CCCCCC;">
+                     <children>
+                        <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="218.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="62.0" prefWidth="226.0" text="Berbagi Pengetahuan, Membentuk Masa Depan" textAlignment="CENTER" textFill="#27005d" wrapText="true">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="116.0" prefWidth="221.0">
+                           <children>
+                              <Label alignment="TOP_CENTER" layoutX="23.0" prefHeight="110.0" prefWidth="182.0" text="Platform tryout kami Membuka akses kepada pengetahuan akademis terkini, Sehingga memberikan Anda keunggulan dalam persiapan ujian." textAlignment="CENTER" textFill="#27005d" wrapText="true" />
+                           </children>
+                        </Pane>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="176.0" prefWidth="226.0" style="-fx-background-color: #CCCCCC;">
+                     <children>
+                        <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="218.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="62.0" prefWidth="226.0" text="Dedikasi yang Tanpa Batas" textFill="#27005d" wrapText="true">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="116.0" prefWidth="221.0">
+                           <children>
+                              <Label alignment="TOP_CENTER" layoutX="23.0" prefHeight="110.0" prefWidth="182.0" text="Kami percaya bahwa semangat dan dedikasi kami dapat menciptakan pengalaman belajar yang tidak hanya luar biasa tetapi juga bermakna bagi Anda." textAlignment="CENTER" textFill="#27005d" wrapText="true" />
+                           </children>
+                        </Pane>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+               <StackPane.margin>
+                  <Insets top="150.0" />
+               </StackPane.margin>
+            </HBox>
+            <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="176.0" prefWidth="1029.0" spacing="45.0" StackPane.alignment="TOP_CENTER">
+               <children>
+                  <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="176.0" prefWidth="226.0" style="-fx-background-color: #CCCCCC;">
+                     <children>
+                        <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="218.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="62.0" prefWidth="226.0" text="Keahlian dan Kreativitas Bersatu" textFill="#27005d" wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="116.0" prefWidth="221.0">
+                           <children>
+                              <Label alignment="TOP_CENTER" layoutX="23.0" prefHeight="110.0" prefWidth="182.0" text="Dibentuk dengan keterampilan dan pengetahuan yang beragam, tim kami menggabungkan keahlian teknis dan kreativitas untuk memberikan solusi tryout terbaik." textAlignment="CENTER" textFill="#27005d" wrapText="true" />
+                           </children>
+                        </Pane>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="176.0" prefWidth="226.0" style="-fx-background-color: #CCCCCC;">
+                     <children>
+                        <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="218.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="62.0" prefWidth="226.0" text="Inovasi Terus Berkembang" textFill="#27005d" wrapText="true">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="116.0" prefWidth="221.0">
+                           <children>
+                              <Label alignment="TOP_CENTER" layoutX="23.0" prefHeight="110.0" prefWidth="182.0" text="Dalam lingkungan teknologi yang terus berubah, tim kami akan selalu berusaha untuk memperbarui dan meningkatkan aplikasi tryout kami agar selalu relevan dan efektif." textAlignment="CENTER" textFill="#27005d" wrapText="true" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+                  <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="176.0" prefWidth="226.0" style="-fx-background-color: #CCCCCC;">
+                     <children>
+                        <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="218.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="62.0" prefWidth="226.0" text="Komitmen Terhadap Kualitas" textAlignment="CENTER" textFill="#27005d" wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="116.0" prefWidth="221.0">
+                           <children>
+                              <Label alignment="TOP_CENTER" layoutX="23.0" prefHeight="110.0" prefWidth="182.0" text="Dengan komitmen kami terhadap kualitas, setiap fitur dan fungsi dalam aplikasi tryout kami dirancang dengan cermat untuk memastikan kepuasan pengguna." textAlignment="CENTER" textFill="#27005d" wrapText="true" />
+                           </children>
+                        </Pane>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="176.0" prefWidth="226.0" style="-fx-background-color: #CCCCCC;">
+                     <children>
+                        <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="218.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="62.0" prefWidth="226.0" text="Dukungan dan Hubungan Pelanggan" textAlignment="CENTER" textFill="#27005d" wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="116.0" prefWidth="221.0">
+                           <children>
+                              <Label alignment="TOP_CENTER" layoutX="23.0" prefHeight="110.0" prefWidth="182.0" text="Kami bukan hanya tim pengembang, tetapi juga teman dan mitra Anda dalam perjalanan belajar. Dukungan dan hubungan pelanggan adalah prioritas kami." textAlignment="CENTER" textFill="#27005d" wrapText="true" />
+                           </children>
+                        </Pane>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+               <StackPane.margin>
+                  <Insets top="375.0" />
+               </StackPane.margin>
+            </HBox>
+            <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" StackPane.alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="176.0" fitWidth="190.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Style/Logo-Polinema.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="176.0" prefWidth="220.0" text="Politeknik Negeri Malang (Polinema) adalah salah satu institusi pendidikan tinggi di Indonesia yang berfokus pada pendidikan vokasi dan terletak di Kota Malang, Provinsi Jawa Timur." textAlignment="CENTER" textFill="#cccccc" wrapText="true" />
+                  <HBox alignment="CENTER" prefHeight="48.0" prefWidth="220.0" spacing="75.0">
+                     <children>
+                        <VBox fx:id="web_poln" accessibleRole="HYPERLINK" alignment="CENTER" prefHeight="48.0" prefWidth="51.0">
+                           <children>
+                              <ImageView fitHeight="23.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/Web-logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Hyperlink accessibleRole="TEXT" alignment="CENTER" contentDisplay="CENTER" onAction="#webPolinema" prefHeight="24.0" prefWidth="114.0" text="Website" textAlignment="CENTER" textFill="#cccccc" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="insta_poln" alignment="CENTER" prefHeight="48.0" prefWidth="62.0">
+                           <children>
+                              <ImageView fitHeight="23.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/insta-logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Hyperlink alignment="CENTER" contentDisplay="CENTER" onAction="#instaPolinema" prefHeight="24.0" prefWidth="114.0" text="Instagram" textAlignment="CENTER" textFill="#cccccc" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+               <StackPane.margin>
+                  <Insets top="585.0" />
+               </StackPane.margin>
+            </VBox>
+            <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="117.0" prefWidth="1018.0" spacing="25.0" StackPane.alignment="TOP_CENTER">
+               <StackPane.margin>
+                  <Insets top="1010.0" />
+               </StackPane.margin>
+               <children>
+                  <Label alignment="CENTER" text="Contact Us : " textAlignment="CENTER" textFill="#cccccc">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="56.0" prefWidth="315.0" spacing="45.0">
+                     <children>
+                        <VBox fx:id="insta_ilham" alignment="CENTER" prefHeight="56.0" prefWidth="175.0">
+                           <children>
+                              <ImageView fitHeight="23.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/insta-logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Hyperlink alignment="CENTER" contentDisplay="CENTER" onAction="#instaIlham" prefHeight="24.0" prefWidth="173.0" text="Ilham Gegana Raya Firmansyah" textAlignment="CENTER" textFill="#cccccc" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="insta_iqbal" alignment="CENTER" prefHeight="56.0" prefWidth="90.0">
+                           <children>
+                              <ImageView fitHeight="23.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/insta-logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Hyperlink alignment="CENTER" contentDisplay="CENTER" onAction="#instaIqbal" prefHeight="24.0" prefWidth="114.0" text="Iqbal Maulana" textAlignment="CENTER" textFill="#cccccc" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="insta_ince" alignment="CENTER" prefHeight="47.0" prefWidth="119.0">
+                           <children>
+                              <ImageView fitHeight="23.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/insta-logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Hyperlink alignment="CENTER" contentDisplay="CENTER" onAction="#instaInce" prefHeight="24.0" prefWidth="114.0" text="Ince Ahmad Muhadi" textAlignment="CENTER" textFill="#cccccc" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="insta_yuda" alignment="CENTER" prefHeight="56.0" prefWidth="174.0">
+                           <children>
+                              <ImageView fitHeight="23.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Style/insta-logo.png" />
+                                 </image>
+                              </ImageView>
+                              <Hyperlink alignment="CENTER" contentDisplay="CENTER" onAction="#instaYuda" prefHeight="24.0" prefWidth="172.0" text="Benedictus Felix Yuda Prasetiyo" textAlignment="CENTER" textFill="#cccccc" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+   </content>
+</ScrollPane>

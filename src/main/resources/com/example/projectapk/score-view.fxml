@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane alignment="CENTER" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #27005D;" stylesheets="@../../../Style/styles.css"
+           xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectapk.Controller.ScoreViewController">
+
+   <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="554.0" prefWidth="910.0" styleClass="scoreView">
+      <children>
+         <Label layoutX="401.0" layoutY="32.0" text="RESULT" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="30.0" />
+            </font>
+         </Label>
+         <HBox alignment="CENTER_LEFT" layoutX="46.0" layoutY="99.0" prefHeight="32.0" prefWidth="407.0" spacing="10.0">
+            <children>
+               <Label text="Username  :" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="15.0" />
+                  </font>
+               </Label>
+               <Label fx:id="usernameLabel" text="username" textFill="WHITE">
+                  <font>
+                     <Font size="15.0" />
+                  </font></Label>
+            </children>
+         </HBox>
+         <HBox alignment="CENTER_LEFT" layoutX="46.0" layoutY="148.0" prefHeight="32.0" prefWidth="407.0" spacing="10.0">
+            <children>
+               <Label text="Name         :" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="15.0" />
+                  </font>
+               </Label>
+               <Label fx:id="nameLabel" text="name" textFill="WHITE">
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+               </Label>
+            </children>
+         </HBox>
+         <HBox alignment="CENTER_LEFT" layoutX="46.0" layoutY="199.0" prefHeight="32.0" prefWidth="407.0" spacing="10.0">
+            <children>
+               <Label text="Email          :" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="15.0" />
+                  </font>
+               </Label>
+               <Label fx:id="emailLabel" text="email" textFill="WHITE">
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+               </Label>
+            </children>
+         </HBox>
+         <HBox alignment="CENTER" layoutX="14.0" layoutY="268.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="186.0" prefWidth="896.0" spacing="250.0">
+            <children>
+               <Label fx:id="labelBenar" contentDisplay="BOTTOM" text="10" textFill="WHITE">
+                  <font>
+                     <Font name="SansSerif Bold" size="35.0" />
+                  </font>
+                  <graphic>
+                     <Label text="Benar" textFill="WHITE">
+                        <font>
+                           <Font size="15.0" />
+                        </font></Label>
+                  </graphic>
+               </Label>
+               <Label fx:id="labelSalah" contentDisplay="BOTTOM" text="30" textFill="WHITE">
+                  <font>
+                     <Font name="SansSerif Bold" size="35.0" />
+                  </font>
+                  <graphic>
+                     <Label contentDisplay="BOTTOM" text="Salah" textFill="WHITE">
+                        <font>
+                           <Font size="15.0" />
+                        </font>
+                     </Label>
+                  </graphic>
+               </Label>
+               <Label fx:id="labelNilai" contentDisplay="BOTTOM" text="100" textFill="WHITE">
+                  <font>
+                     <Font name="SansSerif Bold" size="35.0" />
+                  </font>
+                  <graphic>
+                     <Label text="Nilai" textFill="WHITE">
+                        <font>
+                           <Font size="15.0" />
+                        </font>
+                     </Label>
+                  </graphic>
+               </Label>
+            </children>
+         </HBox>
+         <Button layoutX="397.0" layoutY="486.0" mnemonicParsing="false" onAction="#KlikBackButton" prefHeight="45.0"
+                 prefWidth="114.0" style="-fx-background-color: transparent;" text="BACK" textFill="WHITE" styleClass="HomeButton">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Button>
+      </children>
+   </AnchorPane>
+
+</StackPane>

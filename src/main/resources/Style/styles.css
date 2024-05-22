@@ -1,0 +1,135 @@
+.layout {
+    -fx-background-color: #27005D;
+}
+
+.logoPolinema{
+    -fx-background-image: url('Logo-Polinema.png');
+    -fx-background-size: 150;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+.loginFrame {
+    -fx-background-color: #27005D;
+    -fx-border-color: white;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+    -fx-background-radius: 10;
+}
+.frame {
+    -fx-position: relative;
+}
+
+.HomeButton {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+}
+
+.HomeButton:hover{
+    -fx-background-color: #d303fc;
+    -fx-background-radius: 5;
+}
+
+.TopView{
+    -fx-background-color: #27005D;
+    -fx-border-style:solid ;
+    -fx-border-width: 0 0 3 0;
+    -fx-border-color: #9400FF;
+}
+
+.MenuButton{
+    -fx-font-size:16;
+    -fx-background-color: transparent;
+}
+
+.MenuButton:hover {
+    -fx-background-color: #9400FF;
+    -fx-background-radius: 5;
+}
+
+.ButtonImage{
+    -fx-background-color: transparent;
+    -fx-font-size:12;
+    -fx-font-weight: bold;
+    -fx-padding:15;
+    -fx-border-width:2;
+    -fx-border-color: #9400FF;
+    -fx-border-radius: 10;
+}
+.btnLogout {
+    -fx-background-color: transparent;
+}
+
+.BackIconButton{
+    -fx-background-color:transparent;
+    -fx-margin:100;
+}
+.BackIcon:hover{
+    -fx-background-size:65;
+}
+
+.BackIcon{
+    -fx-background-image: url('iconBack.png');
+    -fx-background-position: center;
+    -fx-background-size:50;
+    -fx-background-repeat: no-repeat;
+}
+
+.ButtonImage:hover {
+    -fx-background-color: #9400FF;
+    -fx-background-radius: 5;
+}
+
+.btnLogout:hover {
+    -fx-background-color: #9400FF;
+    -fx-background-radius: 5;
+}
+
+.ListMenu{
+    -fx-border-style:solid;
+    -fx-border-width: 0 3 0 0;
+    -fx-border-color: #9400FF;
+    -fx-font-weight: bold;
+}
+.iconLogout{
+    -fx-background-image: url('logout-icon.png');
+    -fx-background-position: center;
+    -fx-background-size:50;
+    -fx-background-repeat: no-repeat;
+}
+
+.ImageLogo{
+    -fx-background-image: url('logoLabel1.png');
+    -fx-background-position: center;
+    -fx-background-size:200;
+    -fx-background-repeat: no-repeat;
+}
+
+.ImageButton{
+    -fx-background-image: url('UTBK-IPA.png');
+    -fx-background-position: center;
+    -fx-background-size:320;
+    -fx-background-repeat: no-repeat;
+}
+
+.frameScore{
+    -fx-background-color:white;
+    -fx-border-color: black;
+    -fx-border-width:5;
+}
+
+.scoreView{
+    -fx-border-style:solid;
+    -fx-border-width: 3;
+    -fx-border-color: #9400FF;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+
+}
+
+.Bnumber{
+    -fx-background-color:transparent;
+    -fx-border-color: black;
+    -fx-border-width:1;
+}

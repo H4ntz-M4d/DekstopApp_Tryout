@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.example.projectapk.Controller.ScoreController"
+           styleClass="layout" stylesheets="@../../../Style/styles.css" minHeight="1300" minWidth="1500">
+
+    <BorderPane>
+        <top>
+            <StackPane styleClass="TopView">
+                <Pane fx:id="ImageLogo" styleClass="ImageLogo" prefHeight="90" prefWidth="240"/>
+
+                <HBox alignment="CENTER_LEFT">
+                    <Button fx:id="BackIconButton" styleClass="BackIconButton">
+                        <graphic>
+                            <Pane fx:id="BackIcon" styleClass="BackIcon" prefHeight="60" prefWidth="70"/>
+                        </graphic>
+                    </Button>
+                </HBox>
+            </StackPane>
+
+        </top>
+        <center>
+            <TableView styleClass="frameScore" maxWidth="550" fx:id="dataTable">
+                <columns>
+                    <TableColumn text="No" prefWidth="50" fx:id="no"/>
+                    <TableColumn text="Username" prefWidth="250" fx:id="username"/>
+                    <TableColumn text="Nilai Tryout" prefWidth="250" fx:id="nilai"/>
+                </columns>
+            </TableView>
+        </center>
+    </BorderPane>
+
+</StackPane>

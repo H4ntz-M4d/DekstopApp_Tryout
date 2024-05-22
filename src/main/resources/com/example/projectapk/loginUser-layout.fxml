@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="loginScene" prefHeight="750.0" prefWidth="1200.0" stylesheets="@../../../Style/styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectapk.Controller.HelloController">
+   <left>
+      <StackPane alignment="CENTER" maxWidth="929.0" prefHeight="850.0" prefWidth="929.0" style="-fx-background-color: #27005D;" BorderPane.alignment="CENTER">
+
+         <VBox alignment="CENTER">
+            <children>
+               <Pane prefHeight="200" prefWidth="200" styleClass="logoPolinema" />
+               <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="85.0" prefWidth="333.0" text="Welcome Users" wrapText="true">
+                  <font>
+                     <Font name="System Bold" size="45.0" />
+                  </font>
+                  <textFill>
+                     <LinearGradient endX="0.4597156398104265" endY="1.0">
+                        <stops>
+                           <Stop>
+                              <color>
+                                 <Color red="0.9363788962364197" green="0.30000001192092896" blue="1.0" />
+                              </color>
+                           </Stop>
+                           <Stop offset="1.0">
+                              <color>
+                                 <Color red="1.0" green="1.0" blue="1.0" />
+                              </color>
+                           </Stop>
+                        </stops>
+                     </LinearGradient>
+                  </textFill>
+               </Label>
+               <Label prefHeight="47.0" prefWidth="462.0" text="Come on, test your learning results by doing our tryout. Achieve your dreams with BROUT" textFill="WHITE" wrapText="true">
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+               </Label>
+               <Button fx:id="loginButton1" mnemonicParsing="false" prefHeight="42.0" prefWidth="132.0" styleClass="HomeButton" text="Sign In" textFill="WHITE">
+                  <VBox.margin>
+                     <Insets top="50.0" />
+                  </VBox.margin>
+                  <font>
+                     <Font name="System Bold" size="19.0" />
+                  </font>
+               </Button>
+            </children>
+            <StackPane.margin>
+               <Insets bottom="80.0" />
+            </StackPane.margin>
+         </VBox>
+      </StackPane>
+
+   </left>
+   <right>
+      <VBox alignment="CENTER" prefHeight="850.0" prefWidth="571.0" spacing="10.0" style="-fx-background-color: #9400FF;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label text="Username" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets right="335.0" />
+               </VBox.margin></Label>
+            <TextField fx:id="usernameTextField" maxWidth="-Infinity" prefHeight="31.0" prefWidth="405.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="95.0" layoutY="432.0" text="Full Name" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets right="335.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="nameTextField" layoutX="93.0" layoutY="447.0" maxWidth="-Infinity" prefHeight="31.0" prefWidth="405.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="96.0" layoutY="468.0" text="Email" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets right="365.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="emailTextField2" layoutX="93.0" layoutY="483.0" maxWidth="-Infinity" prefHeight="31.0" prefWidth="405.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="95.0" layoutY="504.0" text="Password" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets right="337.0" />
+               </VBox.margin>
+            </Label>
+            <PasswordField fx:id="passwordTextField2" layoutX="93.0" layoutY="519.0" maxWidth="-Infinity" prefHeight="31.0" prefWidth="405.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </PasswordField>
+            <Label fx:id="inform" textFill="white">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="registerButton1" mnemonicParsing="false" onAction="#klikRegister" prefHeight="19.0" prefWidth="129.0" styleClass="HomeButton" text="Sign Up" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </right>
+</BorderPane>

@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Brout">
+    <output-path>$PROJECT_DIR$/out/artifacts/Brout</output-path>
+    <root id="archive" name="Brout.jar" />
+  </artifact>
+</component>
